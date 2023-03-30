@@ -11,9 +11,8 @@ int main()
   int i=10 ,n;
   cout<<"Quante volte voi stampare la frase? ";
   cin>>n;
-  while (i<n)
-  {
-   cout<<"Bada come la fuma"<<endl; 
+  for(int i = 0; i<n; i++){
+    cout<<"bada come la fuma";
   }
   system("pause");
 }
